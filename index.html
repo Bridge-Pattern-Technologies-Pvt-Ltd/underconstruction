@@ -54,7 +54,7 @@
     font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;
   }
   .logo{display:flex;align-items:center;gap:10px;font-family:"Manrope";font-weight:600;
-    letter-spacing:.01em;text-transform:none;font-size:16px;color:#fff}
+    letter-spacing:.005em;text-transform:none;font-size:clamp(22px,2.3vw,32px);color:#fff}
   .status{display:flex;align-items:center;gap:10px;color:var(--muted)}
   .dot{width:8px;height:8px;border-radius:50%;background:var(--spark);
     box-shadow:0 0 0 0 rgba(255,181,71,.7);animation:pulse 1.6s infinite}
@@ -132,7 +132,7 @@
   @media (max-width:820px){
     header{top:30px;left:30px;right:30px}
     .status .long{display:none}
-    .logo{font-size:14px;line-height:1.25;max-width:62%}
+    .logo{font-size:20px;line-height:1.2;max-width:64%}
     main{padding:110px 24px 0}
     .titleblock{display:none}
     .log{left:30px;right:30px;bottom:32px;max-width:none;font-size:10.5px}
